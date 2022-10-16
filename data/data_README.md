@@ -1,6 +1,4 @@
-# FitKittens
-## data folder
-
+# FitKittens - data
 Contents of the data folder:
 
 ### data_photos: 
