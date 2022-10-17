@@ -15,4 +15,5 @@ Range of 'difficulty': advanced, beginner, intermediate
 
 ### exercise_database_instructions:
 327 workouts, one per row each with attribute 'name,' 'exercise_database_instructions'
+
 Each 'name' matches 'name' in exercise_database 
