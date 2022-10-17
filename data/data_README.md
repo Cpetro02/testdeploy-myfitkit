@@ -5,7 +5,7 @@ Contents of the data folder.
 one photo per workout; photo name matches 'name' column in exercise_database and exercise_database_instructions
 
 ### exercise_database:
-327 workouts, one per row each with attribute 'name,' 'body_part,' 'equipment,' and 'difficulty.'
+327 workouts, one per row each with attribute 'name,' 'body_part,' 'equipment,' and 'difficulty'
 
 Range of 'body_part': abs, arms, back, butt_hips, chest, full_body, legs_calves, leg_shins, leg_thighs, neck, shoulders
 
