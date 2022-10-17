@@ -1,0 +1,328 @@
+name,body_part,equipment,difficulty
+90_Lat_Stretch,back,none,beginner
+Ankle_Flexion,"legs_calves, legs_shins",resistance_bands,beginner
+Anti-rotation_Reverse_Lunge,full_body,resistance_bands,beginner
+Bent_Knee_Push-up,"arms, chest, shoulders",none,beginner
+Bodyweight_Squat,"abs, butt_hips, legs_calves, legs_shina, legs_thighs",none,beginner
+Calf_Raise,"legs_calves, legs_shins",weight_machine,beginner
+Cat-Cow,"back, chest",none,beginner
+Chest_Press,"arms, chest, shoulders","barbell, bench",beginner
+Childs_Pose,"abs, back, butt_hips, legs_thighs",none,beginner
+Cobra_Exercise,"abs, back",none,beginner
+Contralateral_Limb_Raises,"back, butt_hips, shoulders",none,beginner
+Crunch,abs,none,beginner
+Decline_Plank,abs,bosu_trainer,beginner
+Dirty_Dog,"abs, butt_hips",none,beginner
+Forward_Hurdle_Run,"butt_hips, legs_calves, legs_shins",hurdles,beginner
+Forward_Linear_Jumps,"butt_hips, full_body, legs_calves, legs_shins, legs_thighs",none,beginner
+Forward_Stepping_over_Cones,"abs, butt_hips",cones,beginner
+Front_Raise,shoulders,dumbbells,beginner
+Glute_Bridge_Exercise,"abs, butt_hips",none,beginner
+Glute_Press,butt_hips,weight_machine,beginner
+Half-kneeling_Hay_Baler,abs,medicine_ball,beginner
+Hip_Hinge,"butt_hips, leg_thighs",barbell,beginner
+Incline_Chest_Press,"chest, shoulders","bench, dumbbells",beginner
+Incline_Reverse_Fly,"back, shoulders","bench, dumbbells",beginner
+Kneeling_ABCs,abs,stability_ball,beginner
+Kneeling_Hip-flexor_Stretch,"butt_hips, legs_thighs",none,beginner
+Kneeling_Lat_Stretch,back,bench,beginner
+Kneeling_TA_Stretch,"butt_hips, legs_thighs",none,beginner
+Lateral_Neck_Flexion,neck,none,beginner
+Lateral_Raise,shoulders,dumbbells,beginner
+Lateral_Shoulder_Raise,shoulders,weight_machine,beginner
+Lateral_Shuffles,"butt_hips, legs_thighs",cones,beginner
+Leg_Crossover_Stretch,"butt_hips, legs_thighs",none,beginner
+Lying_Hamstrings_Curl,butt_hips,weight_machine,beginner
+Modified_Hurdlers_Stretch,legs_thighs,none,beginner
+Neck_Flexion_and_Extension,neck,none,beginner
+Overhead_Triceps_Stretch,arms,none,beginner
+Partner_Assisted_Bodyweight_Squats,"abs, butt_hips, legs_thighs",partner,beginner
+Partner_Tricep_Extension,"abs, arms, butt_hips","partner, resistance_bands",beginner
+Prone_Hamstrings_Curl,legs_thighs,resistance_bands,beginner
+Quadruped_Bent-knee_Hip_Extensions,"abs, butt_hips",none,beginner
+Rotator_Cuff_External_Rotation,shoulders,resistance_bands,beginner
+Rotator_Cuff_Internal_Rotation,shoulders,resistance_bands,beginner
+Seated_Bent-Knee_Biceps_Stretch,arms,none,beginner
+Seated_Biceps_Curl,arms,"bench, dumbbells",beginner
+Seated_Biceps Curl_Machine,arms,weight_machine,beginner
+Seated_Butterfly_Stretch,legs_thighs,none,beginner
+Seated_Cable_Press,chest,"resistance_bands, weight_machine",beginner
+Seated_Calf_Stretch,"legs_calves, legs_shins",none,beginner
+Seated_Chest_Press,chest,weight_machine,beginner
+Seated_Close-Grip_Chest_Press,"arms, chest",weight_machine,beginner
+Seated_Crunch,abs,weight_machine,beginner
+Seated_Decline_Cable_Press,chest,"resistance_bands, weight_machine",beginner
+Seated_High_Back_Row,"arms, back, shoulders","bench, resistance_bands",beginner
+Seated_High_Back_Rows,"arms, back",weight_machine,beginner
+Seated_Incline_Cable_Press,,"resistance_bands, weight_machine",beginner
+Seated_Lat_Pulldown,back,weight_machine,beginner
+Seated_Leg_Extension,legs_thighs,weight_machine,beginner
+Seated_Leg_Press_Exercise,"butt_hips, legs_thighs",weight_machine,beginner
+Seated_Machine_Close-Grip_Shoulder_Press,"arms, shoulders",weight_machine,beginner
+Seated_Medicine_Ball_Trunk_Rotations,abs,medicine_ball,beginner
+Seated_Row,"arms, back",resistance_bands,beginner
+Seated_Row_Machine,"arms, back",weight_machine,beginner
+Seated_Shoulder_Press,"arms, shoulders",weight_machine,beginner
+Seated_Side-Straddle_Stretch,"abs, back, legs_thighs",none,beginner
+Seated_Straddle_Stretch,"back, legs_thighs",none,beginner
+Seated_Toe_Touches,"legs_calves, legs_shins, legs_thighs",none,beginner
+Shoulder_Packing,"back, shoulders",none,beginner
+Side_Lying_Hip_Abduction,butt_hips,none,beginner
+Side_Lying_Hip_Adduction,"butt_hips, legs_thighs",none,beginner
+Side_Lying_Quadriceps_Stretch,legs_thighs,none,beginner
+Modified_Side_Plank,"abs, butt_hips",none,beginner
+Single_Leg_Push-off,"butt_hips, legs_calves, legs_shins, legs_thighs",box,beginner
+Single_Leg_Stand,abs,none,beginner
+Single-arm_Lateral_Raise,shoulders,resistance_bands,beginner
+Squat_Jump,"butt_hips, legs_thighs",none,beginner
+Stability_Ball_Sit-ups,abs,stability_ball,beginner
+Stability_Ball_Wall_Squats,"butt_hips, legs_thighs",stability_ball,beginner
+Standing_Bicep_Curl,arms,resistance_bands,beginner
+Standing_Calf_Raises,"legs_calves, legs_shins",none,beginner
+Standing_Chest_Stretch,chest,none,beginner
+Standing_Crunch,abs,none,beginner
+Standing_Calf_Stretch,"legs_calves, legs_shins",none,beginner
+Standing_Lunge_Stretch,"butt_hips, legs_thighs",none,beginner
+Standing_Shoulder_Extension,arms,none,beginner
+Step-up,"butt_hips, legs_thighs","dumbbells, box",beginner
+Supermans,"back, butt_hips, shoulders",none,beginner
+Hip_Rotator_Stretch,"butt_hips, legs_thighs","box, bench",beginner
+Supine_Dead_Bug,abs,none,beginner
+Supine_Hamstrings_Stretch,"legs_calves, legs_shins, legs_thighs",none,beginner
+Supine_Hip_Flexor_Stretch,"butt_hips, legs_thighs",,beginner
+Supine_Hollowing,abs,none,beginner
+Supine_Pelvic_Tilts,abs,none,beginner
+Supine_Reverse_Marches,abs,none,beginner
+Supine_Rotator_Cuff,"abs, shoulders",none,beginner
+Supine_Shoulder_Flexion,shoulders,none,beginner
+Supine_Snow_Angel,"abs, chest, shoulders",none,beginner
+Thomas_Stretch,"butt_hips, legs_thighs",none,beginner
+Tricep_Extension,arms,weight_machine,beginner
+Tricep_Pressdown,arms,resistance_bands,beginner
+Triceps_Kickback,arms,dumbbells,beginner
+Triceps_Pushdowns,arms,weight_machine,beginner
+Upward_Facing_Dog,"abs, back",none,beginner
+V_Sit_Partner_Rotations,abs,"partner, medicine_ball",beginner
+V-raise,shoulders,dumbbells,beginner
+Walking_Abduction,butt_hips,resistance_bands,beginner
+Warrior,"butt_hips, full_body, legs_thighs",none,beginner
+Wrist_Curl_Extension,arms,"bench, dumbbells",beginner
+Wrist_Curl_Flexion,arms,"bench, dumbbells",beginner
+Wrist_Supination_and_Pronation,arms,"bench, dumbbells",beginner
+Bear_Crawl,full_body,none,intermediate
+Bicep_Curl,arms,barbell,intermediate
+Bird-dog,"abs, back, butt_hips",none,intermediate
+BOSU_Squat_Jumps,"abs, butt_hips, legs_thighs",bosu_trainer,intermediate
+Box_Jumps,"butt_hips, legs_calves, legs_shins, legs_thighs",box,intermediate
+Calf_Raises,"legs_calves, legs_shins",barbell,intermediate
+Chest_Press_Dumbbells,"arms, chest, shoulders","bench, dumbbells",intermediate
+Chin-ups,"arms, back",pull_up_bar,intermediate
+CKC_Parascapular,"chest, shoulders",none,intermediate
+Close-grip_Bench_Press,"arms, chest",barbell,intermediate
+Cycled_Split-Squat_Jump,"butt_hips, legs_calves, legs_shins, legs_thighs",none,intermediate
+Diagonal_Raise,shoulders,dumbbells,intermediate
+Downward-facing_Dog,"arms, back, butt_hips, full_body, legs_calves, legs_shins, legs_thighs",none,intermediate
+Elevated_Glute_Bridge,butt_hips,"bench, dumbbells",intermediate
+Farmers_Carry,full_body,dumbbells,intermediate
+Figure_Eight,full_body,kettlebells,intermediate
+Forward_Cone_Jumps,"butt_hips, legs_thighs",cones,intermediate
+Forward_Linear_Ladder_Drill,full_body,ladder,intermediate
+Forward_Lunge_Barbell,"butt_hips, legs_thighs",barbell,intermediate
+Forward_Lunge,"abs, butt_hips, legs_thighs",none,intermediate
+Front_Plank,"abs, back",none,intermediate
+Front_Squat,"back, butt_hips, full_body, legs_thighs",dumbbells,intermediate
+Glute_Bridge,"abs, butt_hips, legs_thighs",stability_ball,intermediate
+Glute_Bridge_Single_Leg_Progression,"back, butt_hips, legs_thighs",none,intermediate
+Goblet_Squat,"butt_hips, legs_thighs",dumbbells,intermediate
+Half_Turkish_Get-up,full_body,kettlebells,intermediate
+Hammer_Curl,arms,dumbbells,intermediate
+High_Row,back,resistance_bands,intermediate
+High-low_Partner_See-saw,full_body,resistance_bands,intermediate
+Hip_Bridge,butt_hips,barbell,intermediate
+Hip_Rotations,"abs, butt_hips, legs_thighs",none,intermediate
+Jump_and_Reach,"butt_hips, legs_calves, legs_shins, legs_thighs",none,intermediate
+Kneeling_Hay_Baler,full_body,resistance_bands,intermediate
+Kneeling_Lat_Pulldown,back,resistance_bands,intermediate
+Kneeling_Reverse_Fly,"back, shoulders",resistance_bands,intermediate
+Lateral_Cone_Jumps,"butt_hips, legs_calves, legs_shins, legs_thighs",cones,intermediate
+Lateral_Crawls,full_body,none,intermediate
+Lateral_Hurdle_Run,"full_body, legs_calves, legs_shins, legs_thighs",hurdles,intermediate
+Lateral_Lunge,"butt_hips, legs_thighs",dumbbells,intermediate
+Lateral_Over_Unders,"abs, butt_hips, legs_thighs","none, box",intermediate
+Dumbbell_Lunge,"butt_hips, legs_thighs",dumbbells,intermediate
+Lunge_with_Elbow_Instep,"abs, butt_hips, full_body, legs_thighs",none,intermediate
+Lying_Barbell_Triceps_Extensions,arms,"barbell, bench",intermediate
+Lying_Chest_Fly,"chest, shoulders","bench, dumbbells",intermediate
+Lying_Pullovers,chest,"bench, dumbbells",intermediate
+Overhead_Medicine_Ball_Throws,"butt_hips, full_body, shoulders","partner, medicine_ball",intermediate
+Overhead_Slams,"back, butt_hips, full_body, legs_thighs, shoulders",medicine_ball,intermediate
+Partner_Standing_Row_with_Resistance_Tubing,"arms, back, butt_hips",resistance_bands,intermediate
+Plank_with_Knee_Drag,"butt_hips, legs_thighs",,intermediate
+Plank-ups,"abs, arms, chest",none,intermediate
+Prone_Scapular_Stabilization_Series,"back, shoulders",none,intermediate
+Pull-over_Crunch,abs,kettlebells,intermediate
+Pull-ups,"arms, back",pull_up_bar,intermediate
+Push-up,"arms, chest, shoulders",none,intermediate
+Reverse_Bicep_Curl,arms,barbell,intermediate
+Reverse_Ab_Crunch,abs,none,intermediate
+Reverse_Fly,"back, shoulders",resistance_bands,intermediate
+Reverse_Lunge,"butt_hips, legs_thighs",barbell,intermediate
+Reverse_Slam,"butt_hips, full_body, legs_thighs, shoulders",medicine_ball,intermediate
+Romanian_Deadlift,"back, butt_hips, legs_thighs",,intermediate
+Rotational_Uppercut,"arms, full_body, shoulders",dumbbells,intermediate
+Seated_Overhead_Press,"arms, shoulders","bench, dumbbells",intermediate
+Barbell_Seated_Shoulder_Press,"arms, shoulders","barbell, bench",intermediate
+Seated_Straddle_with_Side_Reaches,"abs, back, legs_thighs",none,intermediate
+Shoulder_Stability-Mobility_Series,shoulders,none,intermediate
+Barbell_Shrug,back,barbell,intermediate
+Side_Lunge,"butt_hips, legs_thighs",none,intermediate
+Side_Plank,abs,bosu_trainer,intermediate
+Side_Plank_with_Straight_Leg,"abs, butt_hips",none,intermediate
+Single_Arm_Overhead_Press,"full_body, shoulders",kettlebells ,intermediate
+Single_Arm_Plank,abs,none,intermediate
+Single_Arm_Row,back,resistance_bands,intermediate
+Single_Leg_Squat,"butt_hips, legs_calves, legs_shins, legs_thighs",none,intermediate
+Single-arm_Chest_Press,chest,resistance_bands,intermediate
+Single-arm_Row,back,"bench, dumbbells",intermediate
+Spider_Walks,"arms, full_body",none,intermediate
+Sprinter_Pulls,full_body,none,intermediate
+Medicine_Ball_Squat,butt_hips,medicine_ball,intermediate
+Squat_to_Overhead_Raise,"abs, full_body, legs_thighs, shoulders",dumbbells,intermediate
+Squat_to_Row,full_body,resistance_bands,intermediate
+Stability_Ball_Hamstring_Curl,"butt_hips, legs_thighs",stability_ball,intermediate
+Stability_Ball_Prone_Walkout,"abs, back",stability_ball,intermediate
+Stability_Ball_Push-Up,"chest, shoulders",stability_ball,intermediate
+Stability_Ball_Shoulder_Stabilization,"back, shoulders",stability_ball,intermediate
+Standing_Ankle_Mobilization,"legs_calves, legs_shins",none,intermediate
+Standing_Anti-rotation_Press,"abs, arms, chest",resistance_bands,intermediate
+Standing_Chest_Fly,chest,resistance_bands,intermediate
+Standing_Decline_Cable_Flyes,chest,weight_machine,intermediate
+Standing_Gate_Openers,"abs, butt_hips, legs_thighs",none,intermediate
+Standing_Hamstrings_Curl,"abs, legs_thighs",resistance_bands,intermediate
+Standing_Hip_Abduction,"abs, butt_hips, full_body","resistance_bands, weight_machine",intermediate
+Standing_Hip_Adduction,"abs, butt_hips, legs_thighs",resistance_bands,intermediate
+Standing_Incline_Cable_Flyes,chest,weight_machine,intermediate
+Standing_Leg_Extension,"abs, legs_thighs",resistance_bands,intermediate
+Standing_Row,back,resistance_bands,intermediate
+Standing_Shrug,back,dumbbells,intermediate
+Standing_Triangle_Straddle_Bends,"back, butt_hips, legs_thighs",none,intermediate
+Standing_Trunk_Rotation,abs,resistance_bands,intermediate
+Medicine_Ball_Standing_Trunk_Rotation,abs,medicine_ball,intermediate
+Step_Stretch,"legs_calves, legs_shins",box,intermediate
+Straight_Arm_Pressdown,back,resistance_bands,intermediate
+Dumbbell_Suitcase_Carry,full_body,dumbbells,intermediate
+Kettlebell_Suitcase_Carry,full_body,kettlebells ,intermediate
+Sumo_Rotational_Squats,"butt_hips, legs_thighs",none,intermediate
+Supine_Bicycle_Crunches,abs,none,intermediate
+Supine_IT_Band_Stretch,legs_thighs,none,intermediate
+Supine_Shoulder_Roll,"abs, butt_hips",stability_ball,intermediate
+Supine_Spinal_Twist,"abs, back, chest, shoulders",none,intermediate
+Swing,full_body,kettlebells ,intermediate
+Toe_Taps,full_body,bosu_trainer,intermediate
+Triceps_Extension,arms,dumbbells,intermediate
+TRX_Assisted_Cross-over_Lunge_with_Arm_Raise,"back, butt_hips, shoulders",TRX,intermediate
+TRX_Assisted_Side_Lunge_with_Arm_Raise,"back, butt_hips, full_body, legs_calves, legs_shins, shoulders",TRX,intermediate
+Tuck_Jump,butt_hips,none,intermediate
+V-twist,abs,bosu_trainer,intermediate
+V-ups,abs,none,intermediate
+Vertical_Toe_Touches,abs,none,intermediate
+Walking_Lunges_with_Twists,"abs, butt_hips, legs_thighs",medicine_ball,intermediate
+Ladder_Lateral_Shuffle,"butt_hips, full_body, legs_calves, legs_shins, legs_thighs",ladder,advanced
+Alternate_Leg_Push-off,"butt_hips, legs_calves, legs_shins, legs_thighs",box,advanced
+Asynchronous_Waves,full_body,ropes,advanced
+Back_Squat,"butt_hips, legs_thighs",barbell,advanced
+Barbell_Jammers,"abs, butt_hips, full_body, legs_calves, legs_shins, legs_thighs, shoulders",barbell,advanced
+Bent-over_Row,"arms, back, shoulders",barbell,advanced
+BOSU_Lateral_Jumps,"abs, butt_hips, legs_thighs",bosu_trainer,advanced
+Bottom-up_Press,"chest, full_body, shoulders",kettlebells ,advanced
+Bulgarian_Split_Squat,butt_hips,"bench, dumbbells",advanced
+BOSU_Burpee,full_body,bosu_trainer,advanced
+Clean_and_Press,full_body,kettlebells ,advanced
+Deadlift,full_body,barbell,advanced
+Double_Push-press,full_body,kettlebells ,advanced
+Double_Rotation_Waves,full_body,ropes,advanced
+Forward_Lunge_with_Arm_Drivers,"abs, butt_hips, legs_thighs",none,advanced
+Front_Squat_to_Overhead_Press,full_body,barbell,advanced
+Glute_Activation_Lunges,"abs, butt_hips, legs_thighs",none,advanced
+Halo,"back, butt_hips, chest, full_body, legs_thighs, shoulders",kettlebells ,advanced
+Hang_Clean,full_body,barbell,advanced
+Hexagon_Drill,"abs, butt_hips, full_body, legs_thighs",cones,advanced
+High_Plank_T-spine_Rotation,"abs, shoulders",none,advanced
+High_Windmill,full_body,kettlebells ,advanced
+Inchworms,"abs, arms, back, chest, full_body, shoulders",none,advanced
+Inverted_Flyers,"abs, butt_hips, full_body, legs_thighs",none,advanced
+Kneeling_Wood_Chop,full_body,resistance_bands,advanced
+Lateral_Lunge_Wood_Chop,full_body,resistance_bands,advanced
+Lateral_Waves,full_body,ropes,advanced
+Lateral_Zig_Zags,"legs_calves, legs_shins, legs_thighs",cones,advanced
+Low_Windmill,full_body,kettlebells ,advanced
+Lunge_to_Single_Arm_Row,full_body,resistance_bands,advanced
+Lunge_with_Overhead_Press,"abs, butt_hips, full_body, legs_thighs, shoulders",medicine_ball,advanced
+Medicine_Ball_Lunge_to_Chest_Pass,"abs, butt_hips, full_body, shoulders","partner, medicine_ball",advanced
+Medicine_Ball_Push-ups,"abs, chest, shoulders",medicine_ball,advanced
+Mountain_Climbers,"butt_hips, full_body, legs_thighs",none,advanced
+Multidirectional_Ladder_Drill,full_body,ladder,advanced
+Offset_Single-arm_Chest_Press,"chest, full_body","bench, dumbbells",advanced
+Pistol_Squat,butt_hips,bosu_trainer,advanced
+Power_Clean,full_body,barbell,advanced
+Power_Push_Down,"arms, chest",medicine_ball,advanced
+Prone_ABCs,abs,stability_ball,advanced
+Prone_Runner,full_body,stability_ball,advanced
+Pull_to_Press,full_body,resistance_bands,advanced
+Push_Jerk,full_body,barbell,advanced
+Push_Press,full_body,barbell,advanced
+Kettlebell_Push_Jerk,full_body,kettlebells ,advanced
+Push-up_with_Single-leg_Raise,"arms, butt_hips, chest, full_body, shoulders",none,advanced
+Push-up_with_Staggered_Hands,"arms, chest",none,advanced
+Renegade_Row,full_body,dumbbells,advanced
+Reverse_Lunge_with_Rotation,"abs, full_body, legs_thighs",dumbbells,advanced
+Roll_Out,abs,barbell,advanced
+Rotational_Overhead_Press,shoulders,dumbbells,advanced
+Rotational_Slam,full_body,medicine_ball,advanced
+Russian_Twist,"abs, butt_hips, legs_thighs",stability_ball,advanced
+Advanced_Modified_Side_Plank,"abs, butt_hips",none,advanced
+Side_Plank_Row,full_body,resistance_bands,advanced
+Side-lying_Arm_Rolls,"abs, shoulders","none, dumbbells",advanced
+Simultaneous_Wave_with_Reverse_Lunges,full_body,ropes,advanced
+Simultaneous_Waves,full_body,ropes,advanced
+Single_Arm_Overhead_Squat,"back, full_body, legs_thighs, shoulders",kettlebells ,advanced
+Single_Arm_Swing,full_body,kettlebells ,advanced
+Single_Leg_Hamstring_Curl,"butt_hips, legs_thighs",stability_ball,advanced
+Single_Leg_Romanian_Dead_Lift,butt_hips,resistance_bands,advanced
+Single-arm_Medicine_Ball_Push-up,"abs, arms, chest, shoulders",medicine_ball,advanced
+Single-arm_Rotational_Press,chest,resistance_bands,advanced
+Single-arm_Single-leg_Romanian_Dead_Lift,"back, butt_hips",dumbbells,advanced
+Single-leg_Romanian_Deadlift,butt_hips,none,advanced
+Single-leg_Stand_with_Reaches,abs,"partner, medicine_ball",advanced
+Snatch,full_body,barbell,advanced
+Spinal_Twist_with_a_Push-Pull_Movement,"back, chest, shoulders",none,advanced
+Squat_to_Overhead_Press,full_body,dumbbells,advanced
+Stability_Ball_Knee_Tucks,"abs, legs_calves, legs_shins",stability_ball,advanced
+Stability_Ball_Pikes,"abs, shoulders",stability_ball,advanced
+Stability_Ball_Reverse_Extensions,"back, butt_hips",stability_ball,advanced
+Standing_Hay_Baler,abs,medicine_ball,advanced
+Standing_Rotational_Chop,full_body,resistance_bands,advanced
+Standing_Shoulder_Press,"arms, shoulders",barbell,advanced
+Standing_Single-leg_Cable_Rotation,abs,resistance_bands,advanced
+Standing_Wood_Chop,abs,medicine_ball,advanced
+Supine_Suitcase_Pass,abs,stability_ball,advanced
+T_Drill,full_body,cones,advanced
+Transverse_Lunge,butt_hips,dumbbells,advanced
+Transverse_Lunge_to_Single_Arm_Row,full_body,resistance_bands,advanced
+TRX_Atomic_Push-up,"abs, arms, chest, shoulders",TRX,advanced
+TRX_Back_Row,"abs, arms, back",TRX,advanced
+TRX_Biceps_Curl,"abs, arms",TRX,advanced
+TRX_Chest_Press,"abs, arms, chest",TRX,advanced
+TRX_Front_Rollout,abs,TRX,advanced
+TRX_Hamstrings_Curl,"butt_hips, legs_thighs",TRX,advanced
+TRX_Hip_Press,"back, butt_hips, legs_thighs",TRX,advanced
+TRX_Overhead_Triceps_Extension,arms,TRX,advanced
+TRX_Side-straddle_Golf_Swings,"back, chest, shoulders",TRX,advanced
+TRX_Single-arm_Chest_Press,"abs, arms, chest",TRX,advanced
+TRX_Single-arm_Row,"abs, arms, back",TRX,advanced
+TRX_Suspended_Knee_Tucks,"abs, chest",TRX,advanced
+TRX_Suspended_Lunge,"abs, butt_hips, legs_thighs",TRX,advanced
+TRX_Suspended_Pike,"abs, shoulders",TRX,advanced
+TRX_Suspended_Push-up,"arms, chest, shoulders",TRX,advanced
+Turkish_Get-up,full_body,kettlebells ,advanced
+Waiters_Carry,full_body,kettlebells ,advanced
