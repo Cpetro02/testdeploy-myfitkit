@@ -8,7 +8,10 @@ var mongoose = require('mongoose');
 var session = require('express-session');
 var MongoStore = require('connect-mongo')(session);
 
-mongoose.connect('mongodb+srv://Zilchmasta:nsy%23nfJn6qszayP8@cluster0.vgzfh4x.mongodb.net/registrationForm?retryWrites=true&w=majority', {
+//mongodb+srv://admin:admin@fitkittens.znqjo0j.mongodb.net/test?retryWrites=true&w=majority
+//mongodb+srv://Zilchmasta:nsy%23nfJn6qszayP8@cluster0.vgzfh4x.mongodb.net/registrationForm?retryWrites=true&w=majority
+
+mongoose.connect('mongodb+srv://admin:admin@fitkittens.znqjo0j.mongodb.net/user_data?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 }, (err) => {
