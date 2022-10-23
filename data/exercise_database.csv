@@ -54,7 +54,7 @@ Seated_Crunch,abs,weight_machine,beginner
 Seated_Decline_Cable_Press,chest,"resistance_bands, weight_machine",beginner
 Seated_High_Back_Row,"arms, back, shoulders","bench, resistance_bands",beginner
 Seated_High_Back_Rows,"arms, back",weight_machine,beginner
-Seated_Incline_Cable_Press,,"resistance_bands, weight_machine",beginner
+Seated_Incline_Cable_Press, "chest","resistance_bands, weight_machine",beginner
 Seated_Lat_Pulldown,back,weight_machine,beginner
 Seated_Leg_Extension,legs_thighs,weight_machine,beginner
 Seated_Leg_Press_Exercise,"butt_hips, legs_thighs",weight_machine,beginner
