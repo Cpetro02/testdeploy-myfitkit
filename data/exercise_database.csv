@@ -89,7 +89,7 @@ Supermans,"back, butt_hips, shoulders",none,beginner
 Hip_Rotator_Stretch,"butt_hips, legs_thighs","box, bench",beginner
 Supine_Dead_Bug,abs,none,beginner
 Supine_Hamstrings_Stretch,"legs_calves, legs_shins, legs_thighs",none,beginner
-Supine_Hip_Flexor_Stretch,"butt_hips, legs_thighs",,beginner
+Supine_Hip_Flexor_Stretch,"butt_hips, legs_thighs","none",beginner
 Supine_Hollowing,abs,none,beginner
 Supine_Pelvic_Tilts,abs,none,beginner
 Supine_Reverse_Marches,abs,none,beginner
@@ -157,7 +157,7 @@ Lying_Pullovers,chest,"bench, dumbbells",intermediate
 Overhead_Medicine_Ball_Throws,"butt_hips, full_body, shoulders","partner, medicine_ball",intermediate
 Overhead_Slams,"back, butt_hips, full_body, legs_thighs, shoulders",medicine_ball,intermediate
 Partner_Standing_Row_with_Resistance_Tubing,"arms, back, butt_hips",resistance_bands,intermediate
-Plank_with_Knee_Drag,"butt_hips, legs_thighs",,intermediate
+Plank_with_Knee_Drag,"butt_hips, legs_thighs","none",intermediate
 Plank-ups,"abs, arms, chest",none,intermediate
 Prone_Scapular_Stabilization_Series,"back, shoulders",none,intermediate
 Pull-over_Crunch,abs,kettlebells,intermediate
@@ -168,7 +168,7 @@ Reverse_Ab_Crunch,abs,none,intermediate
 Reverse_Fly,"back, shoulders",resistance_bands,intermediate
 Reverse_Lunge,"butt_hips, legs_thighs",barbell,intermediate
 Reverse_Slam,"butt_hips, full_body, legs_thighs, shoulders",medicine_ball,intermediate
-Romanian_Deadlift,"back, butt_hips, legs_thighs",,intermediate
+Romanian_Deadlift,"back, butt_hips, legs_thighs","barbell",intermediate
 Rotational_Uppercut,"arms, full_body, shoulders",dumbbells,intermediate
 Seated_Overhead_Press,"arms, shoulders","bench, dumbbells",intermediate
 Barbell_Seated_Shoulder_Press,"arms, shoulders","barbell, bench",intermediate
