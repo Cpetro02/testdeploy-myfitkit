@@ -1,3 +1,5 @@
+// contains all routes for our pages
+
 var express = require('express');
 var router = express.Router();
 var User = require('../models/user');

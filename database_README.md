@@ -1,3 +1,10 @@
+## About the Webapp
+This web app was built using the MERN Stack (MongoDB, Express, React, NodeJS) to create a scalable web app consisting of front-end, back-end, and database components.  
+- MongoDB: Our database system
+- Express: Backend server framework for NodeJS
+- React: Creating front end interfaces, uses MaterialUI
+- NodeJS: Framework for executing JS code for scalable network applications
+
 ## Running the Server
 Navigate the the **server** directory in your terminal and enter: **node server.js**
 

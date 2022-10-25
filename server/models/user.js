@@ -1,8 +1,8 @@
+//a model of a user that uses our app
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
 userSchema = new Schema( {
-	
 	unique_id: Number,
 	email: String,
 	username: String,
@@ -10,5 +10,4 @@ userSchema = new Schema( {
 	passwordConf: String
 }),
 User = mongoose.model('User', userSchema);
-
 module.exports = User;

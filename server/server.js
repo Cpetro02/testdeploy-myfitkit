@@ -62,6 +62,7 @@ app.use(function (err, req, res, next) {
 });
 
 
+//Start a server and listen on port 3000 for connections
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, function () {
   console.log('Server is started on http://127.0.0.1:'+PORT);
