@@ -10,8 +10,6 @@ var MongoStore = require('connect-mongo')(session);
 const workoutRoutes = require('./routes/workouts') //pulls workout routes
 
 var app = express();
-
-// middleware - executes between requests and responses, fires for every request coming in
 app.use(express.json()) // checks if theres JSON with any request coming in
 
 app.use((req, res, next) => {
@@ -19,12 +17,11 @@ app.use((req, res, next) => {
     next()
 })
 
-// routes
+//THIS DISPLAYS THE MONGO WORKOUTS
 app.use('/api/workouts', workoutRoutes) // grabs all routes from ./routes/workouts.js
 
 var db = mongoose.connection;
 db.once('open', function () {});
-
 app.use(session({
   secret: 'work hard',
   resave: true,
@@ -36,12 +33,9 @@ app.use(session({
 
 app.set('views', path.join(__dirname, '../client/views'));
 app.set('view engine', 'ejs');	
-
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
-
 app.use(express.static('../client/views'));
-
 var index = require('./routes/index');
 app.use('/', index);
 

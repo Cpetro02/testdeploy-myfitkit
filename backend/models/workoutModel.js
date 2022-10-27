@@ -1,4 +1,6 @@
 //will definte how our workout documents will look like & be structured
+// schema specifies data types of each document in our mongo db collection
+
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema
 

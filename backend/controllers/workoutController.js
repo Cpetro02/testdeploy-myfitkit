@@ -1,17 +1,19 @@
 //db functions to reference in our /router/workout.js file
+// the functions actually interacting with Mongoose and MongoDB
 const { default: mongoose } = require('mongoose')
 const Workout = require('../models/workoutModel')
 
 
-//get all workouts
+//GET all workouts
 const getWorkouts = async(req, res) => {
+    
     const workouts = await Workout.find({}) //gets all documents
 
     res.status(200).json(workouts) //sends json response to user of all workouts from mongo
 }
 
 
-//get a single workout
+//GET a single workout
 const getWorkout = async(req, res) => {
     const { id } = req.params
 
