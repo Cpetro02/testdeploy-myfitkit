@@ -42,6 +42,6 @@ app.use('/', index);
 // connect to mongo db
 mongoose.connect(process.env.MONGO_URI).then(() => {
   app.listen(process.env.PORT, () => {
-      console.log('Connected to Mongo DB and server is listening on port http://127.0.0.1:'+process.env.PORT)
+      console.log('Connected to Mongo DB and server is listening on port http://localhost:'+process.env.PORT)
   })
 }).catch((error) => {console.log(error)})
