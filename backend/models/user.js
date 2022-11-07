@@ -2,6 +2,8 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
+const connection = mongoose.createConnection("mongodb+srv://admin:admin@fitkittens.znqjo0j.mongodb.net/user_data?retryWrites=true&w=majority");
+
 userSchema = new Schema( {
 	unique_id: Number,
 	email: String,

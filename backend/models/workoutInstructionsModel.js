@@ -3,6 +3,8 @@ const mongoose = require('mongoose')
 
 const Schema = mongoose.Schema
 
+const connection = mongoose.createConnection("mongodb+srv://admin:admin@fitkittens.znqjo0j.mongodb.net/exercise_data?retryWrites=true&w=majority");
+
 //Defines structure of workout data document
 const workoutInstructionsSchema = new Schema({
     //edit these to match our exercise db
