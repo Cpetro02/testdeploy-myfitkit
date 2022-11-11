@@ -7,8 +7,6 @@ const validator = require('validator')
 const connection = mongoose.createConnection("mongodb+srv://admin:admin@fitkittens.znqjo0j.mongodb.net/dev_test_user");
 
 userSchema = new Schema( {
-	unique_id: Number,
-
 	email: {
 		type: String,
 		required: true,

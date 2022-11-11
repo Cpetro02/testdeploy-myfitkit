@@ -1,4 +1,10 @@
 const User = require('../models/userModel')
+const jwt = require('jsonwebtoken')
+
+//used for frontend user account authentication - user can stay logged in for 3 days
+const createToken = (_id) => {
+    return jwt.sign({_id}, process.env.SECRET, {expiresIn: '3d'})
+}
 // login user
 const loginUser = async(req, res) => {
     res.json({mssg: 'login user page'})
@@ -10,7 +16,8 @@ const signupUser = async(req, res) => {
 
     try{
         const user = await User.signup(email, username, password) //call function to signup and create user account in MongoDB
-        res.status(200).json({email, user}) //send response of successful acc creation
+        const token = createToken(user._id)
+        res.status(200).json({email, user, token}) //send response of successful acc creation
     } catch(error) {
         res.status(400).json({error: error.message})
     }
