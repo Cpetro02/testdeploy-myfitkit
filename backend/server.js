@@ -8,6 +8,7 @@ var session = require('express-session');
 var MongoStore = require('connect-mongo')(session);
 
 const workoutRoutes = require('./routes/workouts') //pulls workout routes
+const userRoutes = require('./routes/user') //pulls workout routes
 
 var app = express();
 app.use(express.json()) // checks if theres JSON with any request coming in
@@ -17,8 +18,9 @@ app.use((req, res, next) => {
     next()
 })
 
-//THIS DISPLAYS THE MONGO WORKOUTS
+//THIS DISPLAYS THE STUFF FROM ROUTES
 app.use('/api/workouts', workoutRoutes) // grabs all routes from ./routes/workouts.js
+app.use('/api/user', userRoutes) // grabs all routes from ./routes/user.js
 
 var db = mongoose.connection;
 db.once('open', function () {});

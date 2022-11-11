@@ -6,10 +6,25 @@ const connection = mongoose.createConnection("mongodb+srv://admin:admin@fitkitte
 
 userSchema = new Schema( {
 	unique_id: Number,
-	email: String,
-	username: String,
-	password: String,
-	passwordConf: String
-}),
+
+	email: {
+		type: String,
+		required: true,
+		unique: true
+	},
+	username: {
+		type: String,
+		required: true,
+		unique: true
+	},
+	password: {
+		type: String,
+		required: true,
+	},
+	passwordConf: {
+		type: String,
+		required: true,
+	}
+}, {collection: 'users'})
 User = connection.model('User', userSchema);
 module.exports = User;
