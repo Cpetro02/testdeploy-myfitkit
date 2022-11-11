@@ -2,7 +2,7 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
-const connection = mongoose.createConnection("mongodb+srv://admin:admin@fitkittens.znqjo0j.mongodb.net/user_data?retryWrites=true&w=majority");
+const connection = mongoose.createConnection("mongodb+srv://admin:admin@fitkittens.znqjo0j.mongodb.net/dev_test_user");
 
 userSchema = new Schema( {
 	unique_id: Number,
@@ -11,5 +11,5 @@ userSchema = new Schema( {
 	password: String,
 	passwordConf: String
 }),
-User = mongoose.model('User', userSchema);
+User = connection.model('User', userSchema);
 module.exports = User;

@@ -19,4 +19,4 @@ const workoutInstructionsSchema = new Schema({
     }
 }, {collection: 'exercise_database_instructions'})
 
-module.exports = mongoose.model('WorkoutInstructions', workoutInstructionsSchema) //creates a model for workout data
+module.exports = connection.model('WorkoutInstructions', workoutInstructionsSchema) //creates a model for workout data

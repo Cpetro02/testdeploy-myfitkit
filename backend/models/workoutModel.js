@@ -29,4 +29,4 @@ const workoutSchema = new Schema({
     }
 }, {collection: 'exercise_database'})
 
-module.exports = mongoose.model('Workout', workoutSchema) //creates a model for workout data
+module.exports = connection.model('Workout', workoutSchema) //creates a model for workout data
