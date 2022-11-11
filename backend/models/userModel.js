@@ -2,6 +2,7 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 const bcrypt = require('bcrypt')
+const validator = require('validator')
 
 const connection = mongoose.createConnection("mongodb+srv://admin:admin@fitkittens.znqjo0j.mongodb.net/dev_test_user");
 
@@ -27,8 +28,16 @@ userSchema = new Schema( {
 //create static method to sign a user up
 userSchema.statics.signup = async function(email, username, password) {
 
+	// make sure email & password are valid
+	if(!email || !password){
+		throw Error('Empty values are not valid')
+	}
+	if (!validator.isEmail(email)){
+		throw Error('Not a valid email address')
+	}
+
 	//check if email already exists (if it does, then says account already exists)
-	const exists = await this.findOne({ email })
+	const exists = await this.findOne({ email, username })
 	if(exists){
 		throw Error('Email/Account already exists.')
 	}
