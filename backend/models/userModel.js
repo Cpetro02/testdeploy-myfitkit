@@ -27,7 +27,7 @@ userSchema = new Schema( {
 userSchema.statics.signup = async function(email, username, password) {
 
 	// make sure email & password are valid
-	if(!email || !password){
+	if(!email || !username || !password){
 		throw Error('Empty values are not valid')
 	}
 	if (!validator.isEmail(email)){
@@ -46,6 +46,27 @@ userSchema.statics.signup = async function(email, username, password) {
 
 	const user = await this.create({ email, username, password:hash }) // create + send the user account with hashed password to MongoDB
 
+	return user
+}
+
+//create static method for user login
+userSchema.statics.login = async function(username, password){
+
+	if(!username || !password){ // make sure email & password exists in database
+		throw Error('Empty values are not valid')
+	}
+
+	const user = await this.findOne({ username }) //check if email already exists (if it does, then says account already exists)
+	if(!user){
+		throw Error('No account exists with that username')
+	}
+
+	//match passwords
+	const match = await bcrypt.compare(password, user.password) //check both password AND hashed password
+	if(!match){
+		throw Error('Incorrect password')
+	}
+	
 	return user
 }
 
