@@ -5,6 +5,7 @@ FitKittens is a webapp that recommends and provides users with personalized work
 
 ## Running the app
 Open 2 different terminals in the Fitkittens/ directory.  
+  
 In terminal 1: `cd FitKittens/backend`
 - `npm install` (only run if its your first time launching the app)
 - `node server.js`
