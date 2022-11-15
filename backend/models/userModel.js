@@ -35,7 +35,7 @@ userSchema.statics.signup = async function(email, username, password) {
 	}
 
 	//check if email already exists (if it does, then says account already exists)
-	const exists = await this.findOne({ email, username })
+	const exists = await this.findOne({ email })
 	if(exists){
 		throw Error('Email/Account already exists.')
 	}
@@ -50,15 +50,15 @@ userSchema.statics.signup = async function(email, username, password) {
 }
 
 //create static method for user login
-userSchema.statics.login = async function(username, password){
+userSchema.statics.login = async function(email, username, password){
 
-	if(!username || !password){ // make sure email & password exists in database
+	if(!email ||!username || !password){ // make sure email & password exists in database
 		throw Error('Empty values are not valid')
 	}
 
-	const user = await this.findOne({ username }) //check if email already exists (if it does, then says account already exists)
+	const user = await this.findOne({ email }) //check if email already exists (if it does, then says account already exists)
 	if(!user){
-		throw Error('No account exists with that username')
+		throw Error('No account exists with those credentials.')
 	}
 
 	//match passwords
