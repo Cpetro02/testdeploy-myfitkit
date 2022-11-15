@@ -26,7 +26,11 @@ const workoutSchema = new Schema({
     difficulty: {
         type: String,
         required: true
-    }
+    }/*,
+    user_id: {
+        type: String,
+        required: true
+    }*/
 }, {collection: 'exercise_database'})
 
 module.exports = connection.model('Workout', workoutSchema) //creates a model for workout data

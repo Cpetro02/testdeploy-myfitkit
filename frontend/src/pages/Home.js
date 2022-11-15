@@ -1,22 +1,28 @@
 import {useEffect, useState} from 'react'
-
-// components
 import WorkoutDetails from '../components/WorkoutDetails'
+import {useAuthContext} from '../hooks/useAuthContext'
 
 const Home = () => {
     const [workouts, setWorkouts] = useState(null)
+    const {user} = useAuthContext()
 
     useEffect(() => {
         const fetchWorkouts = async() => {
-            const response = await fetch('/api/workouts')
+            const response = await fetch('/api/workouts', {
+                headers: {
+                'Authorization':`Bearer ${user.token}`}
+            })
             const json = await response.json()
 
             if (response.ok){
                 setWorkouts(json)
             }
         }
-        fetchWorkouts()
-    }, [])
+        if (user){
+            fetchWorkouts()
+        }
+        
+    }, [user])
 
     return (
         <div className="home">

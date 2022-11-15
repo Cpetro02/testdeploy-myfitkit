@@ -1,6 +1,6 @@
 //Template for displaying workout data
-
 const WorkoutDetails = ({ workout }) => {
+
     return(
         <div className='workout-details'>
             <h4>{workout.name}</h4>
