@@ -1,9 +1,13 @@
 const express = require('express') //for using express router
-const router = express.Router()
 const {
     getWorkouts,
     getWorkout
 } = require('../controllers/workoutController')
+const requireAuth = require('../middleware/requireAuth')
+
+const router = express.Router()
+
+router.use(requireAuth) //fires middleware to ensure user is logged in to see workouts
 
 //GET all workouts
 router.get('/', getWorkouts)
