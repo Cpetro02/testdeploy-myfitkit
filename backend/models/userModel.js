@@ -50,9 +50,9 @@ userSchema.statics.signup = async function(email, username, password) {
 }
 
 //create static method for user login
-userSchema.statics.login = async function(email, username, password){
+userSchema.statics.login = async function(email, password){
 
-	if(!email ||!username || !password){ // make sure email & password exists in database
+	if(!email || !password){ // make sure email & password exists in database
 		throw Error('Empty values are not valid')
 	}
 
