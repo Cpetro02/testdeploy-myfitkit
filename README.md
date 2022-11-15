@@ -1,24 +1,17 @@
-# FitKittens
-## Workout Tracking & Recommender Interface
+# FitKittens - A Workout Tracking & Recommender Interface
+Group Members: Cameron Merrill, Allyson Vasquez, Caitlin Petro, Phillip Hirsch, Nikhil Konda  
 
-Group Members: Cameron Merrill, Allyson Vasquez, Caitlin Petro, Phillip Hirsch, Nikhil Konda
-## About the Webapp
-This web app was built using the MERN Stack (MongoDB, Express, React, NodeJS) to create a scalable web app consisting of front-end, back-end, and database components.  
-- MongoDB: Our database system
-- Express: Backend server framework for NodeJS
-- React: Creating front end interfaces, uses MaterialUI
-- NodeJS: Framework for executing JS code for scalable network applications
+FitKittens is a webapp that recommends and provides users with personalized workouts to improve wellbeing and lifestyle.  
 
-## Running the Server
-Navigate the the **server** directory in your terminal and enter: **node server.js**
+## Running the app
+Open 2 different terminals in the Fitkittens/ directory.
+- run `npm install` to install MERN stack related libraries.
+- in FitKittens/frontend: `node server.js`
+- in FitKittens/backend: `npm start`
 
-## What our Server is capturing and sending to MongoDB
-The server pushes to the **user_data** database and pushes to the **users** collection and **sessions** collection
+If it does not automatically launch, open [http://localhost:3000](http://localhost:3000) to view it in your browser. (Google Chrome Preferred)  
 
-### The users collection
-The **users** collection pulls every registered account as a document which contains their unique id, email, username, password, and password confirmation 
-
-### The sessions collection
-The **sessions** collection is used to capture the session cookies of accounts that are signed-in
+## Closing the app
+Press `Ctrl-C` in both terminals to exit the session.
 
 ![fitkittens](https://user-images.githubusercontent.com/47702806/195666660-6ccffba1-d041-4edb-acf5-0a396c7bbef9.jpg)
