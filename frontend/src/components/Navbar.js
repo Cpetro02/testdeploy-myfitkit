@@ -1,12 +1,27 @@
 import { Link } from 'react-router-dom'
+import { useWorkoutHistory } from '../hooks/useWorkoutHistory'
+import { useVisualizeHistory } from '../hooks/useVisualizeHistory'
+import { useSurvey } from '../hooks/useSurvey'
 import { useLogout } from '../hooks/useLogout'
 import { useAuthContext } from '../hooks/useAuthContext'
 const Navbar = () => {
 
+    const {workoutHistory} = useWorkoutHistory()
+    const {visualize} = useVisualizeHistory()
+    const {survey} = useSurvey()
     const {logout} = useLogout()
     const {user} = useAuthContext()
     
-    const handleClick = () => {
+    const handleWorkoutHistoryClick = () => {
+        workoutHistory()
+    }
+    const handleVisualizeClick = () => {
+        visualize()
+    }
+    const handleSurveyClick = () => {
+        survey()
+    }
+    const handleLogOutClick = () => {
         logout()
     }
 
@@ -18,11 +33,33 @@ const Navbar = () => {
                 </Link>
                 <nav>
                     {user && (
+                            <div>
+                                <div style={{paddingRight: '15px'}}>
+                                    <button onClick={handleWorkoutHistoryClick}>Workout History</button>
+                                </div>
+                            </div>
+                        )}
+                    {user && (
+                            <div>
+                                <div style={{paddingRight: '15px'}}>
+                                    <button onClick={handleVisualizeClick}>Visualize</button>
+                                </div>
+                            </div>
+                        )}
+                     {user && (
+                            <div>
+                                <div style={{paddingRight: '15px'}}>
+                                    <button onClick={handleSurveyClick}>Survey</button>
+                                </div>
+                            </div>
+                        )}    
+                    {user && (
                         <div>
                             <span>{user.user.username}</span>
-                            <button onClick={handleClick}>Log Out</button>
+                            <button onClick={handleLogOutClick}>Log Out</button>
                         </div>
                     )}
+
                     {!user && (
                         <div>
                             <Link to='/login'>Login</Link>
