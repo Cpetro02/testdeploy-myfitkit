@@ -48,14 +48,14 @@ const Navbar = () => {
                         )}
                      {user && (
                             <div>
-                                <div style={{paddingRight: '15px'}}>
+                                <div style={{paddingRight: '60px'}}>
                                     <button onClick={handleSurveyClick}>Survey</button>
                                 </div>
                             </div>
                         )}    
                     {user && (
                         <div>
-                            <span>{user.user.username}</span>
+                            <span>{user.user.username}&nbsp;&nbsp;&nbsp;</span>
                             <button onClick={handleLogOutClick}>Log Out</button>
                         </div>
                     )}
