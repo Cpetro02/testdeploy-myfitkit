@@ -1,5 +1,9 @@
 // contains all routes for our pages
 
+import { disableReactDevTools } from '@fvilers/disable-react-devtools';
+
+if (process.env.NODE_ENV === 'production') disableReactDevTools
+
 var express = require('express');
 var router = express.Router();
 var User = require('../models/userModel');
